@@ -1,0 +1,40 @@
+.body{
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center; 
+    background-image: url("pattern.jpeg");/*This refuses to work for some reason*/
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+}
+
+p, h1, h2, a{
+    font-family: Helvetica;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.brushes h2{
+    background-color: mediumspringgreen;
+}
+
+.frames h2{
+    background-color: lightcoral;
+}
+
+.paint h2{
+    background-color: skyblue;
+}
